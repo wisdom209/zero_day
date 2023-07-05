@@ -1,0 +1,740 @@
+{
+    "config": {
+        "port": 3000,
+        "editor": {
+            "mode": "preview",
+            "agent": "vscode",
+            "version": "1.0.73"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "https://3000-4geeksacade-htmltutoria-uzu14hwbh1n.ws-eu101.gitpod.io",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "html",
+        "autoPlay": true,
+        "projectType": "tutorial",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "slug": "html-tutorial-exercises-course",
+        "skills": [
+            "html-forms"
+        ],
+        "title": {
+            "us": "Learn the basics of HTML Interactively",
+            "es": "Aprende lo básico de HTML Interactivamente"
+        },
+        "preview": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/preview.png?raw=true",
+        "repository": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course",
+        "description": {
+            "us": "Learn the most popular HTML Tags and how to use them with real life interactive examples, automatic grading and video solutions",
+            "es": "Aprende los tags más populares de HTML y como usarlos en casos de la vida real con ejemplos interactivos, calicaciones automáticas y video-soluciones"
+        },
+        "intro": "https://www.youtube.com/watch?v=Vd2dby9ind4",
+        "duration": 8,
+        "difficulty": "easy",
+        "videoSolutions": true,
+        "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+        "translations": []
+    },
+    "address": "https://4geeksacade-htmltutoria-uzu14hwbh1n.ws-eu101.gitpod.io",
+    "currentExercise": "00-welcome",
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/00-welcome",
+            "slug": "00-welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "00-welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/00-welcome/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/00-welcome/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/01-hello-world",
+            "slug": "01-hello-world",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/01-hello-world/index.html",
+            "title": "01-hello-world",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01-hello-world/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-hello-world/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-hello-world/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01-hello-world/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-hello-world/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": "exercises/01.1-like-word",
+            "slug": "01.1-like-word",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/01.1-like-word/index.html",
+            "title": "01.1-like-word",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01.1-like-word/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.1-like-word/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.1-like-word/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01.1-like-word/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01.1-like-word/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 3,
+            "path": "exercises/02-website-structure",
+            "slug": "02-website-structure",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/02-website-structure/index.html",
+            "title": "02-website-structure",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-website-structure/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-website-structure/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-website-structure/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-website-structure/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-website-structure/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 4,
+            "path": "exercises/03-hello-without-head",
+            "slug": "03-hello-without-head",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/03-hello-without-head/index.html",
+            "title": "03-hello-without-head",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-hello-without-head/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-hello-without-head/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-hello-without-head/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-hello-without-head/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-hello-without-head/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 5,
+            "path": "exercises/04-list-of-reasons",
+            "slug": "04-list-of-reasons",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/04-list-of-reasons/index.html",
+            "title": "04-list-of-reasons",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-list-of-reasons/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-list-of-reasons/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-list-of-reasons/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-list-of-reasons/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-list-of-reasons/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 6,
+            "path": "exercises/05-create-anchors",
+            "slug": "05-create-anchors",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/05-create-anchors/index.html",
+            "title": "05-create-anchors",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-create-anchors/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-create-anchors/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-create-anchors/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-create-anchors/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-create-anchors/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 7,
+            "path": "exercises/06-new-window",
+            "slug": "06-new-window",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/06-new-window/index.html",
+            "title": "06-new-window",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-new-window/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-new-window/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-new-window/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-new-window/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-new-window/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 8,
+            "path": "exercises/07-same-page",
+            "slug": "07-same-page",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/07-same-page/index.html",
+            "title": "07-same-page",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/07-same-page/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-same-page/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-same-page/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-same-page/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-same-page/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 9,
+            "path": "exercises/08-relative-vs-absolute-path",
+            "slug": "08-relative-vs-absolute-path",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/08-relative-vs-absolute-path/index.html",
+            "title": "08-relative-vs-absolute-path",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/08-relative-vs-absolute-path/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-relative-vs-absolute-path/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-relative-vs-absolute-path/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-relative-vs-absolute-path/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-relative-vs-absolute-path/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 10,
+            "path": "exercises/09-formatting-Text",
+            "slug": "09-formatting-Text",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/09-formatting-Text/index.html",
+            "title": "09-formatting-Text",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/09-formatting-Text/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-formatting-Text/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-formatting-Text/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/09-formatting-Text/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-formatting-Text/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 11,
+            "path": "exercises/10-replicate-html",
+            "slug": "10-replicate-html",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/10-replicate-html/index.html",
+            "title": "10-replicate-html",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/10-replicate-html/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-replicate-html/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-replicate-html/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/10-replicate-html/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-replicate-html/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 12,
+            "path": "exercises/11-nested-tags",
+            "slug": "11-nested-tags",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/11-nested-tags/index.html",
+            "title": "11-nested-tags",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/11-nested-tags/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/11-nested-tags/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/11-nested-tags/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/11-nested-tags/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/11-nested-tags/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 13,
+            "path": "exercises/12-my-first-table",
+            "slug": "12-my-first-table",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/12-my-first-table/index.html",
+            "title": "12-my-first-table",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/12-my-first-table/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/12-my-first-table/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/12-my-first-table/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/12-my-first-table/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/12-my-first-table/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 14,
+            "path": "exercises/13-image-with-text",
+            "slug": "13-image-with-text",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/13-image-with-text/index.html",
+            "title": "13-image-with-text",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/13-image-with-text/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/13-image-with-text/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/13-image-with-text/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/13-image-with-text/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/13-image-with-text/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 15,
+            "path": "exercises/14-video-tag",
+            "slug": "14-video-tag",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/14-video-tag/index.html",
+            "title": "14-video-tag",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/14-video-tag/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/14-video-tag/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/14-video-tag/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/14-video-tag/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/14-video-tag/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 16,
+            "path": "exercises/15-iframe",
+            "slug": "15-iframe",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/15-iframe/index.html",
+            "title": "15-iframe",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/15-iframe/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/15-iframe/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/15-iframe/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/15-iframe/solution.hide.html",
+                    "name": "solution.hide.html",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/15-iframe/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ],
+    "session": 265522183283779520
+}
